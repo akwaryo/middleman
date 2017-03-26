@@ -6,5 +6,6 @@
 </p>
 This is a Website building practice of the middlemanapp page.
 
+---
 
 ![The Design](/assets/images/whole-page.png)
