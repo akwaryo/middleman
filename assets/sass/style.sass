@@ -1,8 +1,135 @@
+// Vars
+
 $button-blue: #3067A9
 $footer-bg: #F9F9F9
 $window-gray: #dedede
 $terminal-bg: #4a4e56
 $main-yellow: #fbc547
+$code-font: 'Source Code Pro', monospace
 
 body 
+    font-family: 'Nunito', sans-serif
+    margin: 0
+
+// Header Styles
+
+header
     background-color: $main-yellow
+
+nav
+    display: inline-flex
+    font-weight: bold
+    .logo
+        padding: 20px 0 0 22px
+        font-size: 18px
+    .nav-right
+        position: absolute
+        right: 0
+        padding: 20px 22px 0 0
+        a 
+            text-decoration: none
+            color: #303238
+            margin: 0 10px
+
+.hero
+    max-width: 760px
+    margin: 0 auto
+    font-family: 'Montserrat', sans-serif
+    text-align: center
+    img
+        width: 232px
+        margin: 0 auto
+        display: block
+        padding: 30px 0
+    h1
+        color: #fff
+        font-size: 32px
+        margin: 0
+    p 
+        color: #8A6C27
+        font-size: 20px
+        margin-bottom: 70px
+
+.hero-terminal
+    width: 100%
+    height: 155px
+    background-color: $terminal-bg
+    p
+        font: 16px $code-font
+        text-align: left
+        margin: 0
+        color: #fff
+        font-weight: normal
+        padding: 40px 0 0 18px
+        span 
+            color: #AF8506
+            font-weight: bold
+
+.terminal-wrapper
+    background-color: $window-gray
+    height: 28px
+    width: 100%
+    border-radius: 5px 5px 0 0
+    img 
+        float: left
+        width: 70px
+        height: 16px
+        padding: 6px 8px
+
+// Section Styles
+
+.content-wrapper
+    max-width: 1085px
+    margin: 0 auto
+    background-color: #fff
+
+    .installation
+        padding-top: 64px
+        height: 326px
+        display: flex
+        justify-content: space-between;
+        .content-left
+            width: 497px
+            .terminal-wrapper
+                @extend .terminal-wrapper
+            .installation-terminal
+                @extend .hero-terminal
+                height: 298px
+        .content-right
+            h3
+                font-size: 1.5em
+                padding-top: 68px
+        .outline-button
+            border: 1px solid #446184
+            border-radius: 4px
+            width: 220px
+            height: 35px
+            a 
+                text-decoration: none
+                color: #4280ca
+                display: inline-block
+                padding: 7px 8px
+        code 
+            background-color: #F2F2F2
+            font: 15px $code-font
+            font-weight: 500
+            padding: 0 .4em
+            border-radius: 3px
+
+    .customize
+        @extend .installation
+        padding-top: 160px
+        .content-left
+            h3
+                padding-top: 70px
+                font-size: 1.5em
+            .outline-button
+                @extend .outline-button
+                width: 250px
+        .content-right
+            width: 496px
+            .installation-terminal
+                img
+                    max-height: 295px
+        
+    .build
