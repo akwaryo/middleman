@@ -83,53 +83,65 @@ nav
     margin: 0 auto
     background-color: #fff
 
-    .installation
-        padding-top: 64px
-        height: 326px
-        display: flex
-        justify-content: space-between;
-        .content-left
-            width: 497px
-            .terminal-wrapper
-                @extend .terminal-wrapper
-            .installation-terminal
-                @extend .hero-terminal
-                height: 298px
-        .content-right
-            h3
-                font-size: 1.5em
-                padding-top: 68px
-        .outline-button
-            border: 1px solid #446184
-            border-radius: 4px
-            width: 220px
-            height: 35px
-            a 
-                text-decoration: none
-                color: #4280ca
-                display: inline-block
-                padding: 7px 8px
-        code 
-            background-color: #F2F2F2
-            font: 15px $code-font
-            font-weight: 500
-            padding: 0 .4em
-            border-radius: 3px
+.installation
+    padding-top: 64px
+    height: 326px
+    display: flex
+    justify-content: space-between;
+    .content-left-installation
+        width: 497px
+        .terminal-wrapper
+            @extend .terminal-wrapper
+        .installation-terminal
+            @extend .hero-terminal
+            height: 298px
+    .content-right-installation
+        h3
+            font-size: 1.5em
+            padding-top: 68px
+    .outline-button
+        border: 1px solid #446184
+        border-radius: 4px
+        width: 220px
+        height: 35px
+        a 
+            text-decoration: none
+            color: #4280ca
+            display: inline-block
+            padding: 7px 8px
+    code 
+        background-color: #F2F2F2
+        font: 15px $code-font
+        font-weight: 500
+        padding: 0 .4em
+        border-radius: 3px
 
-    .customize
-        @extend .installation
-        padding-top: 160px
-        .content-left
-            h3
-                padding-top: 70px
-                font-size: 1.5em
-            .outline-button
-                @extend .outline-button
-                width: 250px
-        .content-right
-            width: 496px
-            .installation-terminal
-                img
-                    max-height: 295px
-        
-    .build
+.customize
+    @extend .installation
+    padding-top: 160px
+    .content-left-customize
+        width: 530px
+        h3
+            padding-top: 70px
+            font-size: 1.5em
+        .outline-button
+            @extend .outline-button
+            width: 250px
+    .content-right-customize
+        width: 496px
+        .installation-terminal
+            img
+                max-height: 295px
+                width: 100%
+    
+.build
+    @extend .installation
+    padding-top: 164px
+    .content-left-build
+        @extend .content-left-installation
+        width: 497px
+    .content-right-build
+        width: 496px
+        h3
+            font-size: 1.5em
+            padding-top: 68px
