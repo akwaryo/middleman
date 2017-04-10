@@ -137,7 +137,13 @@ nav
 .build
     @extend .installation
     padding-top: 164px
+    margin-bottom: 80px
     .content-left-build
+        .installation-terminal
+            background-color: $main-yellow
+            img
+                width: 80px
+                padding: 120px 200px
         @extend .content-left-installation
         width: 497px
     .content-right-build
@@ -145,3 +151,66 @@ nav
         h3
             font-size: 1.5em
             padding-top: 68px
+        
+.content
+    width: 100%
+    #open-source
+        text-align: center
+        h4
+            font-size: 1.25em
+        h5
+            font-size: 1.2em
+            font-weight: normal
+            line-height: 1.9em
+            width: 34.375em
+            margin: 0 auto 3em
+    #support
+        @extend #open-source
+    #users
+        height: 280px
+        @extend #open-source
+        img
+            width: 200px
+            height: 100px
+            margin: 0 8px
+
+hr
+    width: 75%
+    margin: 5em auto
+    border: 0
+    border-top: 1px solid #eee
+
+button
+    height: 48px
+    background-color: $button-blue
+    color: #fbfbfb
+    border: none
+    border-radius: 3px
+    font-family: Nunito
+    font-size: 0.95em
+    font-weight: bold
+
+.btn-primary
+    width: 360px
+    
+.btn-small
+    width: 200px
+
+.btn-outline
+    border: 2px solid #446184
+    color: #446184
+    display: block
+    width: 115px
+    margin: 2em auto
+    background-color: #fff
+
+footer
+    background-color: #f9f9f9
+    text-align: center
+    padding: 4em 1em
+    font-family: Nunito
+    font-size: 1.1em
+    a
+        color: #222
+    li
+        list-style-type: none

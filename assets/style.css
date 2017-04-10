@@ -1,1 +1,197 @@
-body{font-family:'Nunito', sans-serif;margin:0}header{background-color:#fbc547}nav{display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;font-weight:bold}nav .logo{padding:20px 0 0 22px;font-size:18px}nav .nav-right{position:absolute;right:0;padding:20px 22px 0 0}nav .nav-right a{text-decoration:none;color:#303238;margin:0 10px}.hero{max-width:760px;margin:0 auto;font-family:'Montserrat', sans-serif;text-align:center}.hero img{width:232px;margin:0 auto;display:block;padding:30px 0}.hero h1{color:#fff;font-size:32px;margin:0}.hero p{color:#8A6C27;font-size:20px;margin-bottom:70px}.build .content-left-build .installation-terminal,.build .content-left-installation .installation-terminal,.customize .content-left-installation .installation-terminal,.hero-terminal,.installation .content-left-installation .installation-terminal{width:100%;height:155px;background-color:#4a4e56}.build .content-left-build .installation-terminal p,.build .content-left-installation .installation-terminal p,.customize .content-left-installation .installation-terminal p,.hero-terminal p,.installation .content-left-installation .installation-terminal p{font:16px "Source Code Pro", monospace;text-align:left;margin:0;color:#fff;font-weight:normal;padding:40px 0 0 18px}.build .content-left-build .installation-terminal p span,.build .content-left-installation .installation-terminal p span,.customize .content-left-installation .installation-terminal p span,.hero-terminal p span,.installation .content-left-installation .installation-terminal p span{color:#AF8506;font-weight:bold}.build .content-left-build .terminal-wrapper,.build .content-left-installation .terminal-wrapper,.customize .content-left-installation .terminal-wrapper,.installation .content-left-installation .terminal-wrapper,.terminal-wrapper{background-color:#dedede;height:28px;width:100%;border-radius:5px 5px 0 0}.build .content-left-build .terminal-wrapper img,.build .content-left-installation .terminal-wrapper img,.customize .content-left-installation .terminal-wrapper img,.installation .content-left-installation .terminal-wrapper img,.terminal-wrapper img{float:left;width:70px;height:16px;padding:6px 8px}.content-wrapper{max-width:1085px;margin:0 auto;background-color:#fff}.build,.customize,.installation{padding-top:64px;height:326px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.build .content-left-build,.build .content-left-installation,.customize .content-left-installation,.installation .content-left-installation{width:497px}.build .content-left-build .installation-terminal,.build .content-left-installation .installation-terminal,.customize .content-left-installation .installation-terminal,.installation .content-left-installation .installation-terminal{height:298px}.build .content-right-installation h3,.customize .content-right-installation h3,.installation .content-right-installation h3{font-size:1.5em;padding-top:68px}.build .outline-button,.customize .content-left-customize .outline-button,.customize .outline-button,.installation .outline-button{border:1px solid #446184;border-radius:4px;width:220px;height:35px}.build .outline-button a,.customize .content-left-customize .outline-button a,.customize .outline-button a,.installation .outline-button a{text-decoration:none;color:#4280ca;display:inline-block;padding:7px 8px}.build code,.customize code,.installation code{background-color:#F2F2F2;font:15px "Source Code Pro", monospace;font-weight:500;padding:0 .4em;border-radius:3px}.customize{padding-top:160px}.customize .content-left-customize{width:530px}.customize .content-left-customize h3{padding-top:70px;font-size:1.5em}.customize .content-left-customize .outline-button{width:250px}.customize .content-right-customize{width:496px}.customize .content-right-customize .installation-terminal img{max-height:295px;width:100%}.build{padding-top:164px}.build .content-left-build{width:497px}.build .content-right-build{width:496px}.build .content-right-build h3{font-size:1.5em;padding-top:68px}
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0; }
+
+header {
+  background-color: #fbc547; }
+
+nav {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-weight: bold; }
+  nav .logo {
+    padding: 20px 0 0 22px;
+    font-size: 18px; }
+  nav .nav-right {
+    position: absolute;
+    right: 0;
+    padding: 20px 22px 0 0; }
+    nav .nav-right a {
+      text-decoration: none;
+      color: #303238;
+      margin: 0 10px; }
+
+.hero {
+  max-width: 760px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+  .hero img {
+    width: 232px;
+    margin: 0 auto;
+    display: block;
+    padding: 30px 0; }
+  .hero h1 {
+    color: #fff;
+    font-size: 32px;
+    margin: 0; }
+  .hero p {
+    color: #8A6C27;
+    font-size: 20px;
+    margin-bottom: 70px; }
+
+.hero-terminal, .installation .content-left-installation .installation-terminal, .customize .content-left-installation .installation-terminal, .build .content-left-installation .installation-terminal, .build .content-left-build .installation-terminal {
+  width: 100%;
+  height: 155px;
+  background-color: #4a4e56; }
+  .hero-terminal p, .installation .content-left-installation .installation-terminal p, .customize .content-left-installation .installation-terminal p, .build .content-left-installation .installation-terminal p, .build .content-left-build .installation-terminal p {
+    font: 16px "Source Code Pro", monospace;
+    text-align: left;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+    padding: 40px 0 0 18px; }
+    .hero-terminal p span, .installation .content-left-installation .installation-terminal p span, .customize .content-left-installation .installation-terminal p span, .build .content-left-installation .installation-terminal p span, .build .content-left-build .installation-terminal p span {
+      color: #AF8506;
+      font-weight: bold; }
+
+.terminal-wrapper, .installation .content-left-installation .terminal-wrapper, .customize .content-left-installation .terminal-wrapper, .build .content-left-installation .terminal-wrapper, .build .content-left-build .terminal-wrapper {
+  background-color: #dedede;
+  height: 28px;
+  width: 100%;
+  border-radius: 5px 5px 0 0; }
+  .terminal-wrapper img, .installation .content-left-installation .terminal-wrapper img, .customize .content-left-installation .terminal-wrapper img, .build .content-left-installation .terminal-wrapper img, .build .content-left-build .terminal-wrapper img {
+    float: left;
+    width: 70px;
+    height: 16px;
+    padding: 6px 8px; }
+
+.content-wrapper {
+  max-width: 1085px;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.installation, .customize, .build {
+  padding-top: 64px;
+  height: 326px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .installation .content-left-installation, .customize .content-left-installation, .build .content-left-installation, .build .content-left-build {
+    width: 497px; }
+    .installation .content-left-installation .installation-terminal, .customize .content-left-installation .installation-terminal, .build .content-left-installation .installation-terminal, .build .content-left-build .installation-terminal {
+      height: 298px; }
+  .installation .content-right-installation h3, .customize .content-right-installation h3, .build .content-right-installation h3 {
+    font-size: 1.5em;
+    padding-top: 68px; }
+  .installation .outline-button, .customize .outline-button, .build .outline-button, .customize .content-left-customize .outline-button {
+    border: 1px solid #446184;
+    border-radius: 4px;
+    width: 220px;
+    height: 35px; }
+    .installation .outline-button a, .customize .outline-button a, .build .outline-button a, .customize .content-left-customize .outline-button a {
+      text-decoration: none;
+      color: #4280ca;
+      display: inline-block;
+      padding: 7px 8px; }
+  .installation code, .customize code, .build code {
+    background-color: #F2F2F2;
+    font: 15px "Source Code Pro", monospace;
+    font-weight: 500;
+    padding: 0 .4em;
+    border-radius: 3px; }
+
+.customize {
+  padding-top: 160px; }
+  .customize .content-left-customize {
+    width: 530px; }
+    .customize .content-left-customize h3 {
+      padding-top: 70px;
+      font-size: 1.5em; }
+    .customize .content-left-customize .outline-button {
+      width: 250px; }
+  .customize .content-right-customize {
+    width: 496px; }
+    .customize .content-right-customize .installation-terminal img {
+      max-height: 295px;
+      width: 100%; }
+
+.build {
+  padding-top: 164px;
+  margin-bottom: 80px; }
+  .build .content-left-build {
+    width: 497px; }
+    .build .content-left-build .installation-terminal {
+      background-color: #fbc547; }
+      .build .content-left-build .installation-terminal img {
+        width: 80px;
+        padding: 120px 200px; }
+  .build .content-right-build {
+    width: 496px; }
+    .build .content-right-build h3 {
+      font-size: 1.5em;
+      padding-top: 68px; }
+
+.content {
+  width: 100%; }
+  .content #open-source, .content #support, .content #users {
+    text-align: center; }
+    .content #open-source h4, .content #support h4, .content #users h4 {
+      font-size: 1.25em; }
+    .content #open-source h5, .content #support h5, .content #users h5 {
+      font-size: 1.2em;
+      font-weight: normal;
+      line-height: 1.9em;
+      width: 34.375em;
+      margin: 0 auto 3em; }
+  .content #users {
+    height: 280px; }
+    .content #users img {
+      width: 200px;
+      height: 100px;
+      margin: 0 8px; }
+
+hr {
+  width: 75%;
+  margin: 5em auto;
+  border: 0;
+  border-top: 1px solid #eee; }
+
+button {
+  height: 48px;
+  background-color: #3067A9;
+  color: #fbfbfb;
+  border: none;
+  border-radius: 3px;
+  font-family: Nunito;
+  font-size: 0.95em;
+  font-weight: bold; }
+
+.btn-primary {
+  width: 360px; }
+
+.btn-small {
+  width: 200px; }
+
+.btn-outline {
+  border: 2px solid #446184;
+  color: #446184;
+  display: block;
+  width: 115px;
+  margin: 2em auto;
+  background-color: #fff; }
+
+footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 4em 1em;
+  font-family: Nunito;
+  font-size: 1.1em; }
+  footer a {
+    color: #222; }
+  footer li {
+    list-style-type: none; }
